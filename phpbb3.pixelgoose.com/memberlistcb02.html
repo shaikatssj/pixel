@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+
+<!-- Mirrored from phpbb3.pixelgoose.com/memberlist.php?style=14&mode=viewprofile&u=2&sid=84f2dafcd7edb524fa25ee18cad814a0 by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 23 Jun 2018 07:23:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PixelGoose.com &bull; Login</title>
+<link rel="alternate" type="application/atom+xml" title="Feed - PixelGoose.com" href="feed.php" /><link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="feed9d17.php" />
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Enter the page number you wish to go to:';
+	var on_page = '';
+	var per_page = '';
+	var base_url = '';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=phpbb3.pixelgoose.com';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="styles/marina_teal/template/styleswitcher.js"></script>
+<script type="text/javascript" src="styles/marina_teal/template/forum_fn.js"></script>
+<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function() {
+	$('a.login-window').click(function() {
+		
+		// Getting the variable's value from a link 
+		var loginBox = this.hash;
+
+		//Fade in the Popup and add close button
+		$(loginBox).fadeToggle(300);
+		
+		return false;
+	});
+	
+	// Cache the Window object
+	$window = $(window);
+                
+   $('div[data-type="background"]').each(function(){
+     var $bgobj = $(this); // assigning the object
+                    
+      $(window).scroll(function() {
+                    
+		// Scroll the background at var speed
+		// the yPos is a negative value because we're scrolling it UP!								
+		var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+		
+		// Put together our final background position
+		var coords = '50% '+ yPos + 'px';
+
+		// Move the background
+		$bgobj.css({ backgroundPosition: coords });
+		
+	}); // window scroll Ends
+	});	
+});
+//]]>
+</script>
+<link href="styles/marina_teal/theme/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="style5774.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<link rel="stylesheet" href="styles/marina_teal/theme/font-awesome.min.css" />
+
+<link rel="stylesheet" href="styles/marina_teal/theme/im-icons.css" />
+
+<link href='../external.html?link=http://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css' />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35809844-1']);
+  _gaq.push(['_setDomainName', 'pixelgoose.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body id="phpbb" class="section-memberlist ltr">
+<div id="wrap">
+<a id="top" accesskey="t"></a>
+<div id="page-header">
+<div id="topbar">
+<div id="topbar-inner" class="inner-block">
+<ul class="user-links">
+<li id="login-link"><i class="fa fa-sign-in fa-lg"></i><a href="#login-box" class="login-window" title="Login" accesskey="x">Login</a><a href="ucp8342.html" class="login-link" title="Login" accesskey="x">Login</a>
+<div id="login-box" class="login-popup">
+<div class="arrow-up"></div>
+<form method="post" action="../external.html?link=https://phpbb3.pixelgoose.com/ucp.php?style=14&amp;mode=login" class="quick-login">
+<fieldset>
+<div class="navbar_username_outer">
+<label for="username">Username:</label>&nbsp;<br /><input type="text" name="username" id="navbar_username" size="10" class="inputbox" title="Username" />
+</div>
+<div class="navbar_password_outer">
+<label for="password">Password:</label>&nbsp;<br /><input type="password" name="password" id="navbar_password" size="10" class="inputbox" title="Password" />
+</div>
+<div class="login-buttons">
+<input type="submit" name="login" value="Login" class="button2" />
+<input type="hidden" name="redirect" value="./memberlist.php?style=14&amp;mode=viewprofile&amp;u=2&amp;style=14" />
+<input type="checkbox" name="autologin" id="autologin" />&nbsp;<label id="autologin_label" for="autologin">Log me on automatically each visit</label>
+</div>
+</fieldset>
+</form>
+<div class="forgot-pass"><a href="ucp937e.html">I forgot my password</a></div>
+</div>
+</li>
+</ul>
+<div class="search-box">
+<form action="../external.html?link=https://phpbb3.pixelgoose.com/search.php?style=14" method="get" id="search">
+<fieldset>
+<div class="search-box-inner">
+<button type="submit" class="button2"><i class="fa fa-search"></i></button>
+<input name="keywords" id="keywords" type="text" maxlength="128" title="Search for keywords" class="inputbox search" value="Search…" onclick="if(this.value=='Search…')this.value='';" onblur="if(this.value=='')this.value='Search…';" />
+</div>
+<a href="search4322.html" class="search-adv-link" title="View the advanced search options">Advanced search</a> <input type="hidden" name="style" value="14" />
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+<div id="headerbar">
+<div id="headerbar-inner" class="inner-block">
+<div id="site-logo">
+<a href="index4322.html" title="Board index" id="logo"><img src="styles/marina_teal/imageset/site_logo.svg" width="164" height="42" alt="" title="" /></a>
+<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+</div>
+<div id="main-nav">
+<ul>
+<li><a href="index4322.html">Home</a></li>
+<li><a href="faq4322.html" title="Frequently Asked Questions">FAQ</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="navbar top-navbar">
+<div class="inner inner-block">
+<ul class="linklist navlinks">
+<li id="breadcrumbs"><i class="fa fa-home grey"></i><a href="index4322.html" accesskey="h">Board index</a> </li>
+</ul>
+</div>
+</div>
+</div>
+<a id="start_here"></a>
+<div id="page-body" class="inner-block">
+<script type="text/javascript">
+// <![CDATA[
+	onload_functions.push('document.getElementById("username").focus();');
+// ]]>
+</script>
+<form action="../external.html?link=https://phpbb3.pixelgoose.com/ucp.php?style=14&amp;mode=login" method="post" id="login">
+<div class="panel">
+<div class="inner">
+<div class="content">
+<h2>The board requires you to be registered and logged in to view profiles.</h2>
+<fieldset class="fields1">
+<dl>
+<dt><label for="username">Username:</label></dt>
+<dd><input type="text" tabindex="1" name="username" id="username" size="25" value="" class="inputbox autowidth" /></dd>
+</dl>
+<dl>
+<dt><label for="password">Password:</label></dt>
+<dd><input type="password" tabindex="2" id="password" name="password" size="25" class="inputbox autowidth" /></dd>
+</dl>
+<dl>
+<dd><label for="autologin"><input type="checkbox" name="autologin" id="autologin" tabindex="4" /> Log me on automatically each visit</label></dd>
+<dd><label for="viewonline"><input type="checkbox" name="viewonline" id="viewonline" tabindex="5" /> Hide my online status this session</label></dd>
+</dl>
+<input type="hidden" name="redirect" value="./memberlist.php?style=14&amp;mode=viewprofile&amp;u=2&amp;style=14" />
+<dl>
+
+<dd><input type="hidden" name="sid" value="84f2dafcd7edb524fa25ee18cad814a0" />
+<input type="submit" name="login" tabindex="6" value="Login" class="button1" /></dd>
+</dl>
+</fieldset>
+</div>
+</div>
+</div>
+</form>
+</div>
+<div id="page-footer">
+<div class="navbar">
+<div class="inner inner-block">
+<ul class="linklist">
+<li><i class="fa fa-home grey"></i><a href="index4322.html" accesskey="h">Board index</a></li>
+<li class="rightside">All times are UTC </li>
+</ul>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-inner" class="inner-block">
+<div id="prefooter">
+<div class="prefooter-block width-33">
+<h2>About us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi perspiciatis delectus sequi quae eaque dolore provident adipisci quam!</p>
+<p>Ea, neque, a repudiandae magnam quia ab reiciendis iusto veritatis veniam eius molestias vitae facilis id.</p>
+</div>
+<div class="prefooter-block width-33">
+<h2>Contacts</h2>
+<ul>
+<li><i class="fa fa-phone fa-lg fa-fw"></i> (777) 777-7777</li>
+<li><i class="fa fa-map-marker fa-lg fa-fw"></i> 101 phpBB3 1st Street</li>
+<li><i class="fa fa-lg fa-fw"></i> St. Petersburg, Florida, WA 00000, USA</li>
+<li><i class="fa fa-envelope fa-lg fa-fw"></i> <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="8ce2e3fee9fce0f5ccf5e3f9fee8e3e1ede5e2a2efe3e1">[email&#160;protected]</a></li>
+</ul>
+</div>
+<div class="prefooter-block width-33">
+<h2>Links</h2>
+<ul>
+<li><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;<a href="#">Home</a></li>
+<li><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;<a href="#">Faq</a></li>
+<li><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;<a href="#">Members</a></li>
+<li><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;<a href="#">Community rules</a></li>
+<li><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;<a href="#">Who we are and what we want?</a></li>
+</ul>
+</div>
+</div>
+<div id="footer-main">
+<ul id="footer-social-links">
+<li><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+<li><a href="#"><i class="fa fa-youtube fa-2x"></i></a></li>
+<li><a href="#"><i class="fa fa-flickr fa-2x"></i></a></li>
+<li><a href="#"><i class="fa fa-tumblr-square fa-2x"></i></a></li>
+</ul>
+Powered by <a href="../external.html?link=http://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Group<br />
+<div id="pixelgoose-copyright">phpBB 3 Marina theme by <a title="Premium phpBB Themes" href="../external.html?link=https://pixelgoose.com/">PixelGoose Studio</a></div>
+</div>
+</div>
+</div>
+<div id="footer-links">
+<div id="footer-links-inner" class="inner-block">
+<ul class="leftside-links">
+<li><i class="fa fa-users fa-lg"></i><a href="memberlist39da.html">The team</a></li><li><i class="fa fa-times-circle fa-lg"></i><a href="ucp5874.html">Delete all board cookies</a></li>
+</ul>
+<ul class="rightside-links">
+</ul>
+</div>
+</div>
+</div>
+<div id="cron-block">
+<a id="bottom" accesskey="z"></a>
+</div>
+<script data-cfasync="false" src="cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script></body>
+
+<!-- Mirrored from phpbb3.pixelgoose.com/memberlist.php?style=14&mode=viewprofile&u=2&sid=84f2dafcd7edb524fa25ee18cad814a0 by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 23 Jun 2018 07:23:01 GMT -->
+</html>
